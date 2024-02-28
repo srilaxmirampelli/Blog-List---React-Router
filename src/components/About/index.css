@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+.component-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.component-img {
+  width: 40%;
+}
+.component-display-text {
+  color: #6d396b;
+  font-weight: bold;
+  font-size: 25px;
+}
+.component-paragraph {
+  font-size: 17px;
+  font-weight: 500;
+  color: #555555;
+  text-align: center;
+  max-width: 70%;
+}
+@media screen and (min-width: 768px) {
+  .component-card {
+    width: 85vw;
+    height: 75vh;
+  }
+  .component-img {
+    width: 35%;
+  }
+  .component-display-text {
+    font-size: 50px;
+  }
+  .component-paragraph {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .component-img {
+    width: 12%;
+  }
+  .component-display-text {
+    font-size: 40px;
+  }
+  .component-paragraph {
+    font-size: 30px;
+  }
+}

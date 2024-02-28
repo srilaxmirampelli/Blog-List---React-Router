@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.component-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.not-found-img {
+  width: 40%;
+}
+.component-display-text {
+  color: #6d396b;
+  font-weight: bold;
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .component-card {
+    width: 85vw;
+    height: 75vh;
+  }
+  .not-found-img {
+    width: 35%;
+  }
+  .component-display-text {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .not-found-img {
+    width: 20%;
+  }
+  .component-display-text {
+    font-size: 40px;
+  }
+}
